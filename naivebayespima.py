@@ -17,6 +17,7 @@ test_data = df.ix[int(training_length)+1:,:]
 
 '''
 Different Classifiers can be used. As all the classifiers have been imported.
+Also Accuracy for this Dataset can be calculated for all the different classifiers.
 '''
 
 
