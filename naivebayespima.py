@@ -16,7 +16,7 @@ training_data = df.ix[:int(training_length),:]
 test_data = df.ix[int(training_length)+1:,:]
 
 '''
-Different Classifiers can be used. 
+Different Classifiers can be used. As all the classifiers have been imported.
 '''
 
 
