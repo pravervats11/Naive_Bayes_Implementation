@@ -15,6 +15,11 @@ training_length = len(df)*0.67
 training_data = df.ix[:int(training_length),:]
 test_data = df.ix[int(training_length)+1:,:]
 
+'''
+Different Classifiers can be used. 
+'''
+
+
 classifier = GaussianNB()
 classifier.fit(training_data.ix[:,:-2], training_data.ix[:,-1])
 
